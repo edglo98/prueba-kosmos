@@ -1,0 +1,42 @@
+body {
+  display: grid;
+  place-content: center;
+}
+.container {
+  width: 100%;
+  max-width: 800px;
+  background-color: rgb(20, 18, 18);
+  padding: 1rem;
+  border-radius: .5rem;
+}
+
+.main-content {
+  display: flex;
+  gap: 2rem;
+}
+
+.main-content > * {
+  flex: 1;
+}
+
+.dynamic-form {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
+
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.add-pickers {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+h3, h2, h1 {
+  text-align: center;
+}
